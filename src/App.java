@@ -7,6 +7,7 @@ public class App {
     // gunakan MM (huruf besar) untuk bulan
     private static final DateTimeFormatter dob_format = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
+    
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
             StudentService service = new StudentService();
